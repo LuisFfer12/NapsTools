@@ -1,12 +1,13 @@
 # NapsTools
 
-Versão lite e 100% estática do [Triff.Tools](https://github.com/NarcisussX/Triff.Tools-Source), com só três ferramentas de wormhole PvE:
+Versão lite e 100% estática do [Triff.Tools](https://github.com/NarcisussX/Triff.Tools-Source), focada em wormhole PvE:
 
 | Rota | Ferramenta |
 |---|---|
 | `#/sites` | **Wormhole PvE Sites** — waves, DPS, EHP, sig, special (scram/neut/web) e escalations de sites C1–C6 |
 | `#/rolling-mass` | **Rolling Mass** — referência de massa para colapsar wormholes |
 | `#/fits` | **C5 Ratting Fits** — Golem, Vargur, Paladin e Kronos (Marauders IV/V, com e sem dread), com EFT para copiar e screenshot |
+| `#/bookmarks` | **Krab C5 Bookmarking Guide** — onde salvar o bookmark de warp-in em cada anomalia C5, com screenshot |
 
 Não tem backend, banco nem chamadas a API: tudo roda no navegador.
 
@@ -36,6 +37,7 @@ O site fica em `https://luisffer12.github.io/NapsTools/`.
 | Fits (após patch de balanceamento) | `src/data/fits.ts` — texto EFT e notas |
 | Screenshots dos fits | `src/assets/fits/*.png` |
 | Dados dos sites | `public/data/c{1..6}_{combat,datarelic}_sites_clean.json` |
+| Bookmarks C5 (texto + imagens) | `src/data/bookmarks.ts` e `src/assets/bookmarks/` |
 | Tabela de rolling mass | `src/pages/RollingMass.tsx` |
 
 ## Estrutura
