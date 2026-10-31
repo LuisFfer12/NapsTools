@@ -7,6 +7,7 @@ const WormholeSites = lazy(() => import("./pages/WormholeSites"));
 const RollingMass = lazy(() => import("./pages/RollingMass"));
 const RoachFits = lazy(() => import("./pages/RoachFits"));
 const BookmarkGuide = lazy(() => import("./pages/BookmarkGuide"));
+const WSystems = lazy(() => import("./pages/WSystems"));
 
 
 function TopNav() {
@@ -48,6 +49,7 @@ export default function App() {
               <Route path="/rolling-mass" element={<RollingMass />} />
               <Route path="/fits" element={<RoachFits />} />
               <Route path="/bookmarks" element={<BookmarkGuide />} />
+              <Route path="/systems" element={<WSystems />} />
               <Route path="*" element={<Navigate to="/" replace />} />
             </Routes>
           </Suspense>

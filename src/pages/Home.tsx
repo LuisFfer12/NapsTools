@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
-import { Bookmark, Crosshair, Orbit, Swords } from "lucide-react";
+import { Bookmark, Crosshair, Globe, Orbit, Swords } from "lucide-react";
 import { TOOLS } from "../tools";
 
-const ICONS = [Swords, Orbit, Crosshair, Bookmark];
+const ICONS = [Swords, Orbit, Crosshair, Bookmark, Globe];
 
 export default function Home() {
   return (
@@ -11,7 +11,7 @@ export default function Home() {
         <h1 className="eve-title text-2xl text-slate-100 sm:text-3xl">NapsTools</h1>
         <p className="mt-2 text-xs uppercase tracking-widest text-slate-400">Ferramentas de wormhole PvE</p>
       </div>
-      <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+      <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {TOOLS.map((tool, i) => {
           const Icon = ICONS[i];
           return (
