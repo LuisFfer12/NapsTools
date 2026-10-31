@@ -8,7 +8,7 @@ Versão lite e 100% estática do [Triff.Tools](https://github.com/NarcisussX/Tri
 | `#/rolling-mass` | **Rolling Mass** — referência de massa para colapsar wormholes |
 | `#/fits` | **C5 Ratting Fits** — Golem, Vargur, Paladin e Kronos (Marauders IV/V, com e sem dread), com EFT para copiar e screenshot |
 | `#/bookmarks` | **Krab C5 Bookmarking Guide** — onde salvar o bookmark de warp-in em cada anomalia C5, com screenshot |
-| `#/systems` | **W-Space Systems** — busca dos 2.603 J-systems (classe, efeito, statics com destino e massa, região, estrela, planetas e luas), com filtros e link direto `#/systems?j=J123456` |
+| `#/systems` | **W-Space Systems** — os 2.603 J-systems em árvore Anoikis → região → constelação (estilo anoik.is), com filtros múltiplos de classe, statics, efeito e tipos de planeta (any/all), painel de detalhes e link direto `#/systems?j=J123456` |
 
 Não tem backend, banco nem chamadas a API: tudo roda no navegador.
 

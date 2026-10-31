@@ -154,10 +154,25 @@ export const EFFECTS: Record<string, { short: string; mods: EffectMod[] }> = {
 };
 
 export const EFFECT_TONE: Record<string, string> = {
-    Pulsar: "text-[#8bd3ff]",
-    "Black Hole": "text-[#b9a6ff]",
-    Magnetar: "text-[#ff9ad1]",
-    "Red Giant": "text-[#ff8f6b]",
-    "Wolf Rayet": "text-[#ffd36b]",
-    "Cataclysmic Variable": "text-[#7fe0d0]",
+    Pulsar: "text-[#5fb8ff]",
+    "Black Hole": "text-[#a98bff]",
+    Magnetar: "text-[#ff6fa8]",
+    "Red Giant": "text-[#ff7a4d]",
+    "Wolf Rayet": "text-[#ffcc3d]",
+    "Cataclysmic Variable": "text-[#e040e0]",
+};
+
+/** Lowercase anoik.is-style token color for a static destination. */
+export const DEST_TEXT: Record<string, string> = {
+    HS: "text-[#7fe0b0]",
+    LS: "text-[#e8de6a]",
+    NS: "text-[#ff6b6b]",
+    C1: "text-[#8fd4ff]",
+    C2: "text-[#7fc0ff]",
+    C3: "text-[#6fa8ff]",
+    C4: "text-[#c9a8ff]",
+    C5: "text-[#ffae5f]",
+    C6: "text-[#ff8a5f]",
+    Thera: "text-[#d0c0ff]",
+    "?": "text-slate-300",
 };
